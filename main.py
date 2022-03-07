@@ -2,7 +2,7 @@ import json
 from haralyzer import HarParser
 
 filelist = []
-_txt = open('D:/ScrappedData.txt', 'w')
+_txt = open('PATH', 'w')
 
 with open('sample.har', 'r') as f:
     har_parser = HarParser(json.loads(f.read()))
